@@ -7,6 +7,7 @@
 .page.theme-light {
   --background-color-main: #fff;
   --accent-color: #000;
+  --main-font-weight-card: 400;
 }
 
 .page.theme-dark {
@@ -15,6 +16,7 @@
   --background-image: var(--background-image-dark);
   --background-color-light: var(--background-color-dark);
   --button-text-color: #00cc14;
+  --main-font-weight-card: 465;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,5 +26,6 @@
     --background-image: var(--background-image-dark);
     --background-color-light: var(--background-color-dark);
     --button-text-color: #00cc14;
+    --main-font-weight-card: 465;
   }
 }
