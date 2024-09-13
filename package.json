@@ -1,0 +1,17 @@
+{
+  "name": "zakrivayuschiy-teg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "checklAll": "prettier --check './**/*.{html,css,js}' && stylelint **/*.css",
+    "fixAll": "prettier --write './**/*.{html,css,js}' && stylelint **/*.css --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.3.3",
+    "stylelint": "^16.9.0"
+  }
+}
