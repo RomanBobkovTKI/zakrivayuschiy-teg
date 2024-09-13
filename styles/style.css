@@ -23,6 +23,7 @@
   background-attachment: fixed;
   background-repeat: repeat;
   background-size: 4px 4px;
+  font-variation-settings: var(--main-font-weight-card);
 }
 
 .content-width {
