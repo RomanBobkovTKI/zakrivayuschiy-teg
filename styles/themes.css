@@ -8,7 +8,6 @@
   --background-color-main: #fff;
   --accent-color: #000;
   --main-font-weight-card: 400;
-  --font-weight-heading-card: 700;
 }
 
 .page.theme-dark {
@@ -18,7 +17,6 @@
   --background-color-light: var(--background-color-dark);
   --button-text-color: #00cc14;
   --main-font-weight-card: 465;
-  --font-weight-heading-card: 785;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,6 +27,5 @@
     --background-color-light: var(--background-color-dark);
     --button-text-color: #00cc14;
     --main-font-weight-card: 465;
-    --font-weight-heading-card: 785;
   }
 }

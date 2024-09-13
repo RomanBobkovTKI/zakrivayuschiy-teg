@@ -16,7 +16,7 @@
 
 .page {
   font-family: var(--main-font-family);
-  font-variation-settings: var(--main-font-weight-card);
+  font-variation-settings: 'wght' var(--main-font-weight-card);
   background-color: var(--background-color-main);
   color: var(--accent-color);
   background-image: var(--background-image);
