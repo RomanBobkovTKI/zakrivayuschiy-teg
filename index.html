@@ -20,8 +20,8 @@
   </head>
   <body class="page">
     <header class="header content-width content-background-color">
-      <h1 class="logo__page">&lt;/HTML&gt;</h1>
-      <h2 class="header__title">закрывающий тег</h2>
+      <div class="logo__page">&lt;/HTML&gt;</div>
+      <h1 class="header__title">закрывающий тег</h1>
 
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -51,9 +51,9 @@
     </header>
     <main>
       <article class="content-width content-background-color">
-        <h3 class="card-title">
+        <h2 class="card-title">
           Фритрек и нулевой спринт: Подготовка к работе
-        </h3>
+        </h2>
 
         <div class="card__imges__wrapper">
           <img
@@ -119,16 +119,16 @@
           </button>
         </div>
       </article>
-    </main>
 
-    <footer class="footer modal__window">
-      <button type="button" class="button button--save">
-        <svg class="button__icon" viewBox="0 0 29 28">
-          <use href="svg/image-diskette.svg#image-diskette" />
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-    </footer>
+      <div class="footer-button">
+        <button type="button" class="button button--save">
+          <svg class="button__icon" viewBox="0 0 29 28">
+            <use href="svg/image-diskette.svg#image-diskette" />
+          </svg>
+          <span class="button__text">Сохранить на&nbsp;память</span>
+        </button>
+      </div>
+    </main>
 
     <script src="./scripts/set-theme.js"></script>
     <script src="./scripts/like.js"></script>

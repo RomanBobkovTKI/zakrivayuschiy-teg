@@ -43,6 +43,10 @@
   margin-block-start: 136px;
 }
 
+.logo__page:focus {
+  outline: none;
+}
+
 .header {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -236,7 +240,7 @@
   mix-blend-mode: difference;
 }
 
-.footer {
+.footer-button {
   display: grid;
   justify-items: center;
   gap: 57px;
