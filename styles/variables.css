@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-family: 'Inter', sans-serif;
+  --accent-font-family: 'PressStart2P', fantasy;
+  --main-font-weight-card: 400;
+  --background-color-main: #fff;
+  --accent-color: #000;
+  --background-image: url('../svg/pattern-light.svg');
+  --background-image-dark: url('../svg/pattern-dark.svg');
+  --background-color-light: #fff;
+  --background-color-dark: #000;
+  --button-text-color: #fff;
+  --like-fill-color: #ff0000;
+}
